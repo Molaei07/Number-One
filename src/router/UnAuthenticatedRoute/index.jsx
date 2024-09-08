@@ -13,7 +13,11 @@ import {
     MyViews,
     Reserved,
     Security,
-    EditInformation
+    EditInformation,
+    Login,
+    ForgetPasswordLogin,
+    TowStepLogin,
+    Register
 } from "../../screen"
 
 const routerPublic = createBrowserRouter([
@@ -30,7 +34,20 @@ const routerPublic = createBrowserRouter([
                 children: [{ path: '/EventDetails/:id', element: <EventDetails /> }]
             },
             { path: '/*', element: <Error404 /> },
-
+        ]
+    },
+    {
+        path: '/authorize',
+        children: [
+            {
+                path: "/authorize/login",
+                children: [
+                    { index: true, element: <Login /> },
+                    { path: "/authorize/login/twoStep", element: <TowStepLogin /> },
+                ]
+            },
+            { path: "/authorize/forgetPassword", element: <ForgetPasswordLogin /> },
+            {path: "/authorize/register", element: <Register />}
         ]
     },
     {
