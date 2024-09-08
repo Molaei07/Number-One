@@ -1,7 +1,6 @@
 import { Form, Formik } from "formik"
-import { validations } from "../../../core/validations/validations"
 
-const FormHolder = ({ initialValues, onSubmit, style, children }) => {
+const FormHolder = ({ initialValues, onSubmit, style, children, validations }) => {
     return (
         <Formik
             initialValues={initialValues}
