@@ -2,7 +2,10 @@ import Button from "./Button";
 import LogoGroup from "./LogoGroup";
 import PaginatedItems from "./Paginate/Pageinate";
 import PaginateHolderItems from "./Paginate/PaginateHolderItems";
-import {handlePageClick, calculatePageCount} from "./Paginate/PaginateFunctions";
+import {
+  handlePageClick,
+  calculatePageCount,
+} from "./Paginate/PaginateFunctions";
 import CreateAccordionItem from "./createAccordionItem";
 import ImportantWord from "./importantWord";
 import InformedPoster from "./informedPoster";
@@ -36,5 +39,5 @@ export {
   SearchInput,
   FormHolder,
   FormInput,
-  HamburgerMenu
+  HamburgerMenu,
 };

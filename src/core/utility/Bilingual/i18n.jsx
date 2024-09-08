@@ -59,14 +59,24 @@ i18n.use(initReactI18next)
                     // Buttons
                     GoHomePage: "به صفحه اصلی بروید", Join: 'به رویداد بپیوندید', submit: "ارسال کنید",
                     // LoginForm
-                    LoginCaption: "خوش برگشتی!",
-                    LoginDesc: " سلام! آماده ورود به سیستم هستید؟ فقط نام کاربری و رمز عبور خود را در زیر وارد کنید و شما در کمترین زمان به عمل خواهید رسید. بیا بریم!",
-                    RememberMe: "مرا به خاطر بسپار", ForgetPassword: "رمز عبور را فراموش کرده اید؟", loginBtn: "ورود",
-                    HaveAccount2: "حساب کاربری ندارید؟",
+                    LoginCaption: "خوش اومدید!",
+                    LoginDesc: "برای ورود به حساب خود ایمیل و رمز عبور خود را وارد کنید",
+                    RememberMe: "مرا به خاطر بسپار", ForgetPassword: "فراموشی رمز؟", loginBtn: "ورود به حساب کاربری",
+                    HaveAccount2: "حساب کاربری ندارید؟", signUp: "ثبت نام", emailPlaceholder: "ایمیل خود را وارد کنید", passwordPlaceholder: "رمز عبور خود را وارد کنید",
                     // SignUpForm
                     SignUpCaption: "حساب کاربری برای خود بسازید",
                     SignUpDesc: "سلام! برای پیوستن به حزب آماده اید؟ برای دریافت فقط به چند جزئیات از شما نیاز داریم آغاز شده. بیا انجامش بدیم!",
                     SignUpBtn: "ثبت نام", HaveAccount1: "از قبل حساب کاربری دارید؟",
+                    // Steps
+                        // ChangePassword
+                    ChangePasswordCaption: "تغییر رمزعبور", ChangePasswordDesc: "جهت دریافت کد یک بار مصرف شماره تماس خود را وارد کنید",
+                    ChangePasswordPlaceholder: "شماره همراه خود را وارد کنید", ChangePasswordBtn: "دریافت کد یک بار مصرف",
+                        // GetCode
+                    GetCodeCaption: "دریافت کد", GetCodeDesc: "کدی که برای شما ارسال شد را اینجا وارد کنید",
+                    GetCodePlaceholder: "کد را وارد کنید", GetCodeBtn: "تایید کد یک بار مصرف",    
+                        // SetNewPassword
+                    SetNewPasswordCaption: "رمز عبور جدید", SetNewPasswordDesc: "رمز عبور جدید خود را وارد کنید",
+                    SetNewPasswordPlaceholder: "رمز عبور جدید را وارد کنی", SetNewPasswordBtn: "تکمیل فرایند",
                     // ErrorPage
                     error: "صفحه خطا", ErrorDesc: "متاسفم! این صفحه در دسترس نیست!",
                     // EventsPage
@@ -140,14 +150,24 @@ i18n.use(initReactI18next)
                     // Buttons
                     GoHomePage: "Go To Home Page", Join: 'Join This Event', submit: "Submit Now",
                     // LoginForm
-                    LoginCaption: "Welcome back!",
-                    LoginDesc: "Hey there! Ready to log in? Just enter your username and password below and you'll be back in action in no time. Let's go!",
-                    RememberMe: "Remember me", ForgetPassword: "Forget Password?", loginBtn: "Sign In",
-                    HaveAccount2: "Don't have an account?",
+                    LoginCaption: "Welcome!",
+                    LoginDesc: "Enter your email and password to log in to your account",
+                    RememberMe: "Remember me", ForgetPassword: "Forget Password?", loginBtn: "login",
+                    HaveAccount2: "Don't have an account?",  signUp: "Sign Up", emailPlaceholder: "Enter your email", passwordPlaceholder: "Enter your password",
                     // SignUpForm
                     SignUpCaption: "Create Your Account",
                     SignUpDesc: "Hey there! Ready to join the party? We just need a few details from you to get started. Let's do this!",
                     SignUpBtn: "Sign Up", HaveAccount1: "Already have an account?",
+                    // Steps
+                        // ChangePassword
+                    ChangePasswordCaption: "Change password", ChangePasswordDesc: "Enter your phone number to receive a one-time use code",
+                    ChangePasswordPlaceholder: "Enter your mobile number", ChangePasswordBtn: "Get a verification code",
+                        // GetCode
+                    GetCodeCaption: "Get the code", GetCodeDesc: "Enter the code that was sent to you here",
+                    GetCodePlaceholder: "Enter the code", GetCodeBtn: "Verification code",
+                        // SetNewPassword
+                    SetNewPasswordCaption: "New password", SetNewPasswordDesc: "Enter your new password",
+                    SetNewPasswordPlaceholder: "Enter the new password", SetNewPasswordBtn: "Complete the process",
                     // ErrorPage
                     error: "Error Page", ErrorDesc: "Sorry! This Page is Not Available!",
                     // EventsPage
